@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/xedgarxramosx/Documents/Proyectos MAUI/eramosExamen/eramosExamen/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/xedgarxramosx/Documents/Proyectos MAUI/eramosExamen/eramosExamen/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/eramosExamen.app

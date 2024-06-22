@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Resumen"
+             Title="Resumen">
+    <VerticalStackLayout Spacing="20" Padding="20">
+        <Label x:Name="txtWelcome"
+            Text="Usuario conectado: "
+            FontSize="15"
+            HorizontalTextAlignment="End"/>
+            <Label x:Name="lblName"
+            Text="Nombre: "
+            FontSize="15"
+            HorizontalTextAlignment="Start"/>
+            <Label x:Name="lblLastName"
+            Text="Apellido: "
+            FontSize="15"
+            HorizontalTextAlignment="Start"/>
+            <Label x:Name="lblAge"
+            Text="Edad: "
+            FontSize="15"
+            HorizontalTextAlignment="Start"/>
+            <Label x:Name="lblDate"
+            Text="Fecha: "
+            FontSize="15"
+            HorizontalTextAlignment="Start"/>
+            <Label x:Name="lblCity"
+            Text="Ciudad: "
+            FontSize="15"
+            HorizontalTextAlignment="Start"/>
+            <Label x:Name="lblContry"
+            Text="Pais: "
+            FontSize="15"
+            HorizontalTextAlignment="Start"/>
+            <Label x:Name="lblMonto"
+            Text="Monto Inicial: "
+            FontSize="15"
+            HorizontalTextAlignment="Start"/>
+            <Label x:Name="lblMensual"
+            Text="Pago Mensual: "
+            FontSize="15"
+            HorizontalTextAlignment="Start"/>
+            <Label x:Name="lblTotal"
+            Text="Pago total: "
+            FontSize="15"
+            HorizontalTextAlignment="Start"/>
+    </VerticalStackLayout>
+</ContentPage>

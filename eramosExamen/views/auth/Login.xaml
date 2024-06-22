@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Login"
+             Title="Login">
+    <VerticalStackLayout Spacing="20"
+                         Padding="20">
+        <Label
+            Text="Inicio de sesión"
+            HorizontalTextAlignment="Center"
+            FontSize="20"
+            TextColor="Red"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+
+        <Image Source="https://sbsconsulting.com.ec/wp-content/uploads/2018/01/LOGO-UISRAEL-768x209.png"
+               WidthRequest="100"></Image>
+
+        <Grid Padding="10"
+              RowSpacing="10"
+              ColumnSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Text="Usuario"
+                   HorizontalTextAlignment="Center"
+                   VerticalOptions="Center"
+                   FontSize="18"
+                   Grid.Row="0"
+                   Grid.Column="0"/>
+            <Entry x:Name="txtUser"
+                   Placeholder="Usuario"
+                   Grid.Row="1"
+                   Grid.Column="0"/>
+            <Label Text="Contraseña"
+                   HorizontalTextAlignment="Center"
+                   VerticalOptions="Center"
+                   FontSize="18"
+                   Grid.Row="0"
+                   Grid.Column="1"/>
+            <Entry x:Name="txtPassword"
+                   Placeholder="Contraseña"
+                   IsPassword="true"
+                   Grid.Row="1"
+                   Grid.Column="1"/>
+        </Grid>
+        <Button x:Name="btnLogin"
+                Clicked="btnLogin_Clicked"
+                Text="Iniciar Sesión"/>
+    </VerticalStackLayout>
+</ContentPage>
